@@ -4,7 +4,7 @@ post_to_url = "http://localhost:9000"  # Post JSON to this URL
 
 ping_address = "/ping"                 # Default device OSC address to ping
 ping_port = 8888                       # Default device OSC port
-ping_frequency = 60                    # How often to ping, in seconds
+ping_delay_sec = 60                    # How often to ping, in seconds
 
 [[devices]]
 host = "localhost"  # Only host is required; other fields are optional
